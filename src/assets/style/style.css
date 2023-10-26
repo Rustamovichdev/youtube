@@ -1,0 +1,97 @@
+button{
+    cursor: pointer;
+}
+
+.root{
+    display: flex;
+    gap: 59px;
+}
+.root__list{
+    margin-top: 60px;
+}
+
+.root__list_item{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.root__main{
+    width: 100%;
+}
+.root__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.root__search{
+    width: 830px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 23px;
+    border-radius: 22px;
+    opacity: 0.3;
+    background: #EBEBEB;
+}
+.root__search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #EBEBEB;
+}
+.root__search button{
+    background: #EBEBEB;
+    border: none;
+}
+.profilComp__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilComp__header button {
+    margin-right: 200px;
+}
+.profil__avatar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__img {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.recommend {
+    margin: 49px 0 30px;
+}
+
+.recommended__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended__img {
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.food__header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
